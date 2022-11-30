@@ -14,6 +14,8 @@ public class Misaligned {
     
     static void  print(String colorPairEntryWithIndex){
         System.out.println(colorPairEntryWithIndex);
+    }
+    
          
     public static void main(String[] args) { 
         int result = printColorMap();
