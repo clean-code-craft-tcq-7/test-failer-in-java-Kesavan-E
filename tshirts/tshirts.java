@@ -14,10 +14,6 @@ public class Tshirts {
     }
 
     public static void main(String[] args) { 
-         assert(size(37) == "S");
-        assert(size(38) == "S");
-        assert(size(41) == "M");
-        assert(size(42) == "L");
         assert(size(0) == "Not a valid size");
         assert(size(20) == "Not a valid size");
         assert(size(36) == "S");
