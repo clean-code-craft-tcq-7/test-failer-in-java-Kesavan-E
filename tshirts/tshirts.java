@@ -1,14 +1,12 @@
 public class Tshirts {
     static String size(int cms) {
-       if(cms < 36){
-        return "Not a valid size";  
-        }else if((cms >= 36) && (cms <= 38)){
-        return "S";
-        }else if((cms >= 39) && (cms <= 41)){
-        return "M";
-        }else if((cms >= 42) && (cms <= 44)){
-        return "L";
-        }else{
+       if (cms < 38) {
+			return "S";
+		} else if (cms > 38 && cms < 42) {
+			return "M";
+		} else {
+			return "L";
+		}else{
             return "Not a valid size";
         }
     }
