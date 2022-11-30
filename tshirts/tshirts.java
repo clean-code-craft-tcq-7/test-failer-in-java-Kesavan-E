@@ -6,7 +6,7 @@ public class Tshirts {
 			return "M";
 		} else {
 			return "L";
-		}else{
+		} else if {
             return "Not a valid size";
         }
     }
