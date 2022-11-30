@@ -31,6 +31,7 @@ public class Misaligned {
        String[] result = printColorMap();
 	    assert(result.length == 25);
 	    assert(result[0].equals("1 | White | Blue"));
+	    assert(colorPairEntry(1,2).equals("7 | Red | Orange"));
         System.out.println("All is well (maybe!)");
     }
 }
