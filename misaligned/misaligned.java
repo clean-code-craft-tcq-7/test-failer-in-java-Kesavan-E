@@ -28,8 +28,9 @@ public class Misaligned {
     }
          
     public static void main(String[] args) { 
-        int result = printColorMap();
-        assert(result == 25);
+       String[] result = printColorMap();
+	    assert(result.length == 25);
+	    assert(result[0].equals("1 | White | Blue"));
         System.out.println("All is well (maybe!)");
     }
 }
