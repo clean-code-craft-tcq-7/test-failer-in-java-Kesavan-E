@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.*;
+
 public class Misaligned {
     static int printColorMap() {
         String majorColors[] = {"White", "Red", "Black", "Yellow", "Violet"};
