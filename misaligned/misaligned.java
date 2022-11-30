@@ -16,6 +16,16 @@ public class Misaligned {
         System.out.println(colorPairEntryWithIndex);
     }
     
+    static String[] printColorMap() {
+        String[] colorPairWithIndex = new String[25];
+        int i = 0, j = 0;
+        for(i = 0; i < 5; i++) {
+            for(j = 0; j < 5; j++) {
+                colorPairWithIndex[i*5 +j]= colorPairEntry(i,j);
+            }
+        }
+        return colorPairWithIndex;
+    }
          
     public static void main(String[] args) { 
         int result = printColorMap();
