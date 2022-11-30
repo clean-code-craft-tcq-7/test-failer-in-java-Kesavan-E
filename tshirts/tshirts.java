@@ -4,9 +4,11 @@ public class tshirts {
 	return "S";
 	} else if (cms > 38 && cms < 42) {
 	return "M";
-	} else if (cms >= 42) {
+	} else if (cms >= 42 && cms <=44) {
 	return "L";
-	}
+	} else {
+	       return "Not a valid size";
+       }
     }
 
     public static void main(String[] args) { 
@@ -19,6 +21,7 @@ public class tshirts {
         assert(size(42) == "L");
         assert(size(43) == "L");
         assert(size(44) == "L");
+	assert(size(50) == "Not a valid size");
         System.out.println("All is well (maybe!)");
     }
 }
