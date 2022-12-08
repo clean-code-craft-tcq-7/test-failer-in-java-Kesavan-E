@@ -32,6 +32,7 @@ public class Misaligned {
 	    assert(result.length == 25);
 	    assert(result[0].equals("1 | White | Blue"));
 	    assert(colorPairEntry(1,2).equals("7 | Red | Orange"));
+	    assert(colorPairEntry(1,2).equals("8  | Red | Green"));
         System.out.println("All is well (maybe!)");
     }
 }
