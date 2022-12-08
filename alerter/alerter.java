@@ -38,7 +38,8 @@ public class Alerter {
     }
     public static void main(String[] args) {
         alertInCelcius(400.5f,networkAlertStub);
-        alertInCelcius(301.6f,networkAlertStub);
+        alertInCelcius(302.0f,networkAlertStub);
+        alertInCelcius(250.6f,networkAlertStub);
         assert(alertFailureCount == 1);
         System.out.printf("%d alerts failed.\n", alertFailureCount);
         System.out.println("All is well (maybe!)\n");
